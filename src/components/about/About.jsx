@@ -24,7 +24,7 @@ function About() {
           <br />
 
           <p>
-          Previously, I built a website for Saspa, a Kuwaiti furniture company, focusing on building their landing page. I also made other machine learning projects like Fashion items classifier and a Canadian port entry prediction model.
+          Previously, I built a chatbot for The Calligraphy Cut Company and deployed it on a Azure container App for demonstration. Also, I built a website for Saspa, a Kuwaiti furniture company, focusing on building their landing page. I also made other machine learning projects like Fashion items classifier and a Canadian port entry prediction model.
           </p>
           <br />
 

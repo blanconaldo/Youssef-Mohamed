@@ -132,20 +132,40 @@ const Skills = () => {
           <h3>Web & Application Development</h3>
           <div className="skill_content">
             <article className="skill__details">
-              <HiBadgeCheck />
+              <HiBadgeCheck/>
               <h4>E-Commerce</h4>
             </article>
             <article className="skill__details">
-              <HiBadgeCheck />
+              <HiBadgeCheck/>
               <h4>Digital Accessibility</h4>
             </article>
             <article className="skill__details">
-              <HiBadgeCheck />
+              <HiBadgeCheck/>
               <h4>Language Development</h4>
             </article>
             <article className="skill__details">
-              <HiBadgeCheck />
+              <HiBadgeCheck/>
               <h4>Multilingual Communication</h4>
+            </article>
+            <article className="skill__details">
+              <HiBadgeCheck/>
+              <h4>Microsoft Azure</h4>
+            </article>
+            <article className="skill__details">
+              <HiBadgeCheck/>
+              <h4>AWS</h4>
+            </article>
+            <article className="skill__details">
+              <HiBadgeCheck/>
+              <h4>GitLab CI/CD</h4>
+            </article>
+            <article className="skill__details">
+              <HiBadgeCheck/>
+              <h4>GitHub Actions</h4>
+            </article>
+            <article className="skill__details">
+              <HiBadgeCheck/>
+              <h4>Continuous Deployment</h4>
             </article>
           </div>
         </div>

@@ -5,6 +5,8 @@ import Saspa from "../../assets/Saspa-Landing-Page.png";
 import Fashion from "../../assets/Fashion-MNIST-Classifier.png";
 import Chatbot from "../../assets/AI-Chrome-Extension-Chatbot.png";
 import PredictionModel from "../../assets/Canadian-Port-Entry-Prediction-Model.png";
+import Calligraphy from "../../assets/Calligraphy-Cut.png";
+import Titanic from "../../assets/Titanic-Landing-Page.png";
 
 
 const Projects = () => {
@@ -15,6 +17,51 @@ const Projects = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        {/* single Project  */}
+        <article className="portfolio_item flex flex-col justify-between">
+          <div className="top">
+            <div className="portfolio_item-img">
+              <img src={Calligraphy} alt="" />
+            </div>
+            <h3 className="leading-5 !mt-3 !mb-3">Calligraphy Cut Chatbot</h3>
+            <p className="text-sm leading-5">
+              A chatbot app built for The Calligraphy Cut Company, uses Groq API key and GitHub actions to build and push images to an Azure Container Registry and deployed on Azure Container App.
+              <a href="https://github.com/blanconaldo/Calligraphy-Cut-Chatbot" target="_blank" rel="noreferrer">
+                GitHub Repo
+              </a>
+              )
+            </p>
+          </div>
+          <div className="flex justify-start gap-2 mt-4 ">
+            <a
+              href="https://frontend-calligraphy-cut-chatbot.kindpebble-7abcd71b.germanywestcentral.azurecontainerapps.io/"
+              className="btn btn-primary !py-1 !px-2 text-sm leading-7"
+              target="_blank" rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        {/* single Project  */}
+
+        {/* single Project  */}
+        <article className="portfolio_item flex flex-col justify-between">
+          <div className="top">
+            <div className="portfolio_item-img">
+              <img src={Titanic} alt="" />
+            </div>
+            <h3 className="leading-5 !mt-3 !mb-3">Titanic Prediction App</h3>
+            <p className="text-sm leading-5">
+              A complete web application for predicting if users would have survived the Titanic crash, leveraging the use of machine learning algorithms for predictions. Git submodules and GitLab CI/CD pipelines were used and app containerized using Docker and is the GitHub repo is mirroring the GitLab repo.
+              <a href="https://github.com/blanconaldo/Titanic-Prediction-App" target="_blank" rel="noreferrer">
+                GitHub Repo
+              </a>
+              )
+            </p>
+          </div>
+        </article>
+        {/* single Project  */}
+
         {/* single Project  */}
         <article className="portfolio_item flex flex-col justify-between">
           <div className="top">
